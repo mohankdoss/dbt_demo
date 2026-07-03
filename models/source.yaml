@@ -1,0 +1,9 @@
+sources:
+  - name: demo
+    database: demo_db
+    schema: demo_sh
+    tables:
+      - name: bike  # enabled
+      - name: weather  # not enabled
+      #  config:
+       #   enabled: false
